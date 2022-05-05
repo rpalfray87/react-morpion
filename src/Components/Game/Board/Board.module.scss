@@ -1,0 +1,33 @@
+.board {
+
+    display: flex;
+    flex-direction: column;
+
+    .tableau {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px;
+        gap: 5px;
+        flex-wrap: wrap;
+        
+        div {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 200px;
+            font-weight: bold;
+        }
+    }
+    .reset {
+        background-color: rgb(30, 170, 30);
+        padding : 5px 20px;
+        border: none;
+        border-radius: 0px;
+        color : white;
+        margin : 10px 0px;
+        align-self: flex-end;
+        font-weight: bold;
+    }
+}

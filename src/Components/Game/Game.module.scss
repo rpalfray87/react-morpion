@@ -1,0 +1,16 @@
+.gamePanel {
+
+    display: flex;
+    flex-direction: column;
+    width: 610px;
+    margin: auto;
+
+    h1 {
+        color : rgb(212, 200, 23);
+        margin: 20px;
+    }
+    h2 {
+        color : white;
+        margin: 15px;
+    }
+}
